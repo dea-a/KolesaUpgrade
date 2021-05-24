@@ -14,6 +14,6 @@ class SearchCest
         $I->click('#searchbox > button');
         $I->seeElement('#columns');
         $I->seeElement('#center_column > ul');
-        $I->seeNumberOfElements('.product-container', 5);
+        $I->seeNumberOfElements('#center_column > ul', 5);
     }
 }
