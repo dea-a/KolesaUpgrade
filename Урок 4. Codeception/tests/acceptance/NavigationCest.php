@@ -32,16 +32,21 @@ class NavigationCest
         
     }
 
+    protected $category = [
+        ['NavBarLink' => 'top', 'url' => 'top', 'header' => 'Все потоки'],
+        ['NavBarLink' => 'develop', 'url' => 'develop', 'header' => 'Разработка'],
+        ['NavBarLink' => 'admin', 'url' => 'admin', 'header' => 'Администрирование'],
+        ['NavBarLink' => 'design', 'url' => 'design', 'header' => 'Дизайн'],
+        ['NavBarLink' => 'management', 'url' => 'management', 'header' => 'Менеджмент'],
+        ['NavBarLink' => 'marketing', 'url' => 'marketing', 'header' => 'Маркетинг'],
+        ['NavBarLink' => 'popsci', 'url' => 'popsci', 'header' => 'Научпоп']
+    ];
+
     protected function getDataForNavigationByCategory()
     {
-        return [  
-            ['NavBarLink' => 'top', 'url' => 'top', 'header' => 'Все потоки'],
-            ['NavBarLink' => 'develop', 'url' => 'develop', 'header' => 'Разработка'],
-            ['NavBarLink' => 'admin', 'url' => 'admin', 'header' => 'Администрирование'],
-            ['NavBarLink' => 'design', 'url' => 'design', 'header' => 'Дизайн'],
-            ['NavBarLink' => 'management', 'url' => 'management', 'header' => 'Менеджмент'],
-            ['NavBarLink' => 'marketing', 'url' => 'marketing', 'header' => 'Маркетинг'],
-            ['NavBarLink' => 'popsci', 'url' => 'popsci', 'header' => 'Научпоп']
+        return [
+            $this ->category[array_rand($this->category)],
+            $this ->category[array_rand($this->category)]
         ];
     }
 }
