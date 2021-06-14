@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'bb8f7b8c36ad3714014636a9837b405642f328ca',
+    'reference' => 'e2dc550fb17edc408de92d37b3ebe53a1c97f04c',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'bb8f7b8c36ad3714014636a9837b405642f328ca',
+      'reference' => 'e2dc550fb17edc408de92d37b3ebe53a1c97f04c',
     ),
     'behat/gherkin' => 
     array (
@@ -65,6 +65,15 @@
       ),
       'reference' => '59374f2fef0cabb9e8ddb53277e85cdca74328de',
     ),
+    'codeception/module-mongodb' => 
+    array (
+      'pretty_version' => '1.1.1',
+      'version' => '1.1.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '7bafcc9e7755b762436d742aa88c53726b5ddca5',
+    ),
     'codeception/module-phpbrowser' => 
     array (
       'pretty_version' => '1.0.2',
@@ -109,6 +118,15 @@
       array (
       ),
       'reference' => '468dd5fe659f131fc997f5196aad87512f9b1304',
+    ),
+    'composer/package-versions-deprecated' => 
+    array (
+      'pretty_version' => '1.11.99.2',
+      'version' => '1.11.99.2',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'c6522afe5540d5fc46675043d3ed5a45a740b27c',
     ),
     'doctrine/instantiator' => 
     array (
@@ -169,6 +187,15 @@
       ),
       'reference' => 'dc960a912984efb74d0a90222870c72c87f10c91',
     ),
+    'jean85/pretty-package-versions' => 
+    array (
+      'pretty_version' => '1.6.0',
+      'version' => '1.6.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '1e0104b46f045868f11942aea058cd7186d6c303',
+    ),
     'justinrainbow/json-schema' => 
     array (
       'pretty_version' => '5.2.10',
@@ -177,6 +204,15 @@
       array (
       ),
       'reference' => '2ba9c8c862ecd5510ed16c6340aa9f6eadb4f31b',
+    ),
+    'mongodb/mongodb' => 
+    array (
+      'pretty_version' => '1.8.0',
+      'version' => '1.8.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '953dbc19443aa9314c44b7217a16873347e6840d',
     ),
     'myclabs/deep-copy' => 
     array (
@@ -199,6 +235,13 @@
       array (
       ),
       'reference' => '4432ba399e47c66624bc73c8c0f811e5c109576f',
+    ),
+    'ocramius/package-versions' => 
+    array (
+      'replaced' => 
+      array (
+        0 => '1.11.99',
+      ),
     ),
     'phar-io/manifest' => 
     array (
