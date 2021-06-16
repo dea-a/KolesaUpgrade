@@ -32,7 +32,11 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
+<<<<<<< Updated upstream
     'reference' => '679346eef1ae29545e653d0fce230e62aa4c1598',
+=======
+    'reference' => '4625d2a40b49b05631f5c5feaa06ff292b684bcf',
+>>>>>>> Stashed changes
     'name' => '__root__',
   ),
   'versions' => 
@@ -44,7 +48,11 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
+<<<<<<< Updated upstream
       'reference' => '679346eef1ae29545e653d0fce230e62aa4c1598',
+=======
+      'reference' => '4625d2a40b49b05631f5c5feaa06ff292b684bcf',
+>>>>>>> Stashed changes
     ),
     'behat/gherkin' => 
     array (
@@ -143,6 +151,18 @@ private static $installed = array (
         0 => '*',
       ),
     ),
+<<<<<<< Updated upstream
+=======
+    'fzaninotto/faker' => 
+    array (
+      'pretty_version' => 'v1.5.0',
+      'version' => '1.5.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'd0190b156bcca848d401fb80f31f504f37141c8d',
+    ),
+>>>>>>> Stashed changes
     'guzzlehttp/guzzle' => 
     array (
       'pretty_version' => '7.3.0',

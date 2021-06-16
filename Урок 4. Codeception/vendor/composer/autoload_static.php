@@ -70,6 +70,10 @@ class ComposerStaticInit935688e9d7172731c7ca5757c754bafb
         ),
         'F' => 
         array (
+<<<<<<< Updated upstream
+=======
+            'Faker\\' => 6,
+>>>>>>> Stashed changes
             'Facebook\\WebDriver\\' => 19,
         ),
         'D' => 
@@ -200,6 +204,13 @@ class ComposerStaticInit935688e9d7172731c7ca5757c754bafb
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/guzzle/src',
         ),
+<<<<<<< Updated upstream
+=======
+        'Faker\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
+        ),
+>>>>>>> Stashed changes
         'Facebook\\WebDriver\\' => 
         array (
             0 => __DIR__ . '/..' . '/php-webdriver/webdriver/lib',
