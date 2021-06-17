@@ -4,6 +4,7 @@ use Page\Acceptance\UserPage;
 
 /**
  * Класс для работы с юзером
+ * @group 1
  */
 
 class UserCest
